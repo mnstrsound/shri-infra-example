@@ -1,7 +1,7 @@
 {
   "name": "shri-infra-example",
   "version": "1.0.0",
-  "description": "Пример сервера для проекта с инфраструктурой",
+  "description": "Тестовое приложение деплоя на Heroku",
   "main": "run.js",
   "scripts": {
     "heroku:create-hosting": "heroku create",
