@@ -1,5 +1,5 @@
 {
-  "name": "infra-example",
+  "name": "shri-infra-example",
   "version": "1.0.0",
   "description": "Пример сервера для проекта с инфраструктурой",
   "main": "run.js",
