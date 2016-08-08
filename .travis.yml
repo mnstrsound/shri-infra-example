@@ -3,5 +3,6 @@ node_js:
 - '6'
 deploy:
   provider: heroku
+  app: morning-atoll-35110
   api_key:
     secure: 7755f326-1d50-48e2-85f4-4719db09fabd
