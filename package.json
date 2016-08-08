@@ -8,6 +8,9 @@
     "heroku:deploy": "git push heroku +master",
     "test": "eslint ."
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andre487/infra-example.git"
@@ -25,6 +28,8 @@
   },
   "devDependencies": {
     "eslint": "^3.2.2",
-    "nodemon": "^1.9.2"
+    "eslint-config-yandex": "^1.0.6",
+    "nodemon": "^1.9.2",
+    "pre-commit": "^1.1.3"
   }
 }
